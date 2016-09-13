@@ -28,6 +28,13 @@ function browserSyncInit(baseDir, browser)
         routes : routes
     };
 
+    console.log("server.js");
+    console.log(server);
+    console.log("server.baseDir");
+    console.log(server.baseDir);
+    console.log("server.baseDir");
+    console.log(server.routes);
+
     /*
      * You can add a proxy to your backend by uncommenting the line below.
      * You just have to configure a context which will we redirected and the target url.
